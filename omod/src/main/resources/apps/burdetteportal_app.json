@@ -1,0 +1,19 @@
+[
+    {
+        "id": "burdetteportal.app",
+        "label": "Access Burdette Portal",
+        "description": "Access Burdette Portal Now!",
+        "extensions": [
+            {
+                "id": "burdetteportal.appId",
+                "extensionPointId": "org.openmrs.basetheme.homepageLink",
+                "type": "link",
+                "label": "burdetteportal.app.title",
+                "url": "burdetteportal/home.page",
+                "icon": "icon-stethoscope",
+                "order": 1,
+                "requiredPrivilege": "App: burdetteportal"
+            }
+        ]
+    }
+]
